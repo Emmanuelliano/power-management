@@ -29,3 +29,10 @@ const webhook = new IncomingWebhook(url);
 
     "body-parser": "^1.20.0",
     "json5": "^2.2.1"
+
+
+//redirecting numbers
+  "scripts": {
+    "start": "SLACK_WEBHOOK_URL=https://discord.com/api/webhooks/1007652077356470294/d1OZX5cCXkQluYTa3OeCkoc3XxpFK2xWov5LmOHMjz3tztm2dvWwN05utktV7dohGTnS/slack npx functions-framework --target=discordAlerts --signature-type=http"
+  }
+}
